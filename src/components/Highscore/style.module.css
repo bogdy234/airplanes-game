@@ -1,0 +1,41 @@
+.highscoreContainer{
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    z-index: 3;
+    background:#25274D;
+    border-radius: 10px;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #AAABB8;
+    height:100%;
+}
+
+.stat{
+    display: flex;
+    gap: 10px;
+}
+
+.statsContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 16px 0;
+}
+
+.xButton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
